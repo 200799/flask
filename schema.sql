@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS moviesDB (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ReleaseYear INTEGER NOT NULL,
+    Title TEXT NOT NULL,
+    Origin TEXT NOT NULL,
+    Director TEXT NOT NULL,
+    Genre TEXT NOT NULL,
+    Wikipedia TEXT NOT NULL,
+    Resume TEXT NOT NULL
+);
+
